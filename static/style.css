@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d5e6e 0%, #0a4855 40%, #083540 70%, #06242d 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    color: #c8f0f7;
+}
+
+h1{
+    text-align: center;
+    text-shadow:
+        0 0 30px rgba(54,176,196,0.8),
+        0 0 60px rgba(54,176,196,0.5),
+        0 4px 10px rgba(0,0,0,0.5);
+    font-size: 4em;
+}
+
+h2{
+    text-align: center;
+    text-shadow:
+        0 0 30px rgba(54,176,196,0.8),
+        0 0 60px rgba(54,176,196,0.5),
+        0 4px 10px rgba(0,0,0,0.5);
+    font-size: 35px;
+}
+
+p{
+    text-align: center;
+    text-shadow:
+        0 0 30px rgba(54,176,196,0.8),
+        0 0 60px rgba(54,176,196,0.5),
+        0 4px 10px rgba(0,0,0,0.5);
+    font-size: 25px;
+}
+
+
+
+.continue {
+    font-family: 'Varela Round', sans-serif; /* אותו פונט */
+
+    display: block;       /* חשוב למרכז */
+    margin: 50px auto;   /* מרכז אופקית */
+
+    background: linear-gradient(135deg, #36b0c4, #0d5e6e);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow:
+        0 0 15px rgba(54,176,196,0.6),
+        0 5px 15px rgba(0,0,0,0.4);
+    height: 13vh;
+}
+
+.continue:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 25px rgba(54,176,196,0.9),
+        0 8px 20px rgba(0,0,0,0.6);
+}
+
+.continue:active {
+    transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1 { font-size: 4em; margin-bottom: 10px; }*/
+/*h2 { font-size: 35px; margin-bottom: 20px; }*/
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>ניתוח הצ'אט</title>
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+<div class="DA">
+    <h1>ניתוח הצ'אט</h1>
+    <h2>🚀🤖 יופי! נראה שסיימתם עכשיו אנחנו בדף ניתוח הצ'אט שלכם</h2>
+    <p>⏬ (שם הצ'אט שלכם.txt) לחצו פה למטה בשביל להעלות את הקובץ של הצ'אט שלכם</p>
+
+    <form method="POST" action="/result" enctype="multipart/form-data">
+        <label for="file-upload" class="custom-file-upload">
+            📁 בחר קובץ צ'אט
+        </label>
+        <input id="file-upload" name="chat_file" type="file" style="display:none;">
+        <button type="submit" class="upload">🛩️ שלחו ונתחו את הקובץ</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

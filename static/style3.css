@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #0d5e6e 0%, #06242d 100%);
+    padding: 20px;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.end {
+    font-family: 'Varela Round', sans-serif;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 30px;
+    border: 1px solid rgba(54, 176, 196, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #c8f0f7;
+    text-shadow: 0 0 20px rgba(54, 176, 196, 0.5);
+}
+
+h2.winner {
+    font-size: 5em;
+    margin: 20px 0;
+    background: linear-gradient(to bottom, #ffffff, #36b0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 15px rgba(54, 176, 196, 0.8));
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+    opacity: 0.9;
+    color: #a8dce4;
+}
+
+/* הדגשת המספר */
+strong {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-shadow: 0 0 10px rgba(54, 176, 196, 1);
+}
+
+/* אנימציית הופעה עדינה */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
