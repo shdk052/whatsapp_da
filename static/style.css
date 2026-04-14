@@ -96,3 +96,14 @@ p{
 /*h1 { font-size: 4em; margin-bottom: 10px; }*/
 /*h2 { font-size: 35px; margin-bottom: 20px; }*/
 
+/* Mobile styles - preserve design, adapt sizes for phones */
+@media (max-width: 600px) {
+  .end { padding: 20px 25px; border-radius: 20px; }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.8em; }
+  p { font-size: 1rem; }
+  strong { font-size: 1rem; }
+  .continue { font-size: 18px; padding: 10px 18px; height: auto; min-height: unset; width: 80%; }
+  .upload, .custom-file-upload { font-size: 16px; padding: 8px 14px; height: auto; margin: 20px auto; width: 80%; }
+}
+
